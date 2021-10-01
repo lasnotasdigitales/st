@@ -1,34 +1,9 @@
-st - simple terminal
---------------------
-st is a simple terminal emulator for X which sucks less.
+This is my ST-simple terminal build.
 
+It is not fully-featured, just the-stuff-I-use kind of featured.
 
-Requirements
-------------
-In order to build st you need the Xlib header files.
+Revelant patches are the scroll one, the one that matches the color of the cursos with the text, and
+some others that I have a hard time remembering.
 
-
-Installation
-------------
-Edit config.mk to match your local setup (st is installed into
-the /usr/local namespace by default).
-
-Afterwards enter the following command to build and install st (if
-necessary as root):
-
-    make clean install
-
-
-Running st
-----------
-If you did not install st with make clean install, you must compile
-the st terminfo entry with the following command:
-
-    tic -sx st.info
-
-See the man page for additional details.
-
-Credits
--------
-Based on Aurélien APTEL <aurelien dot aptel at gmail dot com> bt source code.
+A great feature is that the background is #8baccc, whis basically is my favorite color. 
 
